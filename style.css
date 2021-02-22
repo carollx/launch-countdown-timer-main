@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #1e1e2a;
+  background-image: url('images/bg-stars.svg');
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: hsl(0, 0%, 94%);
+}
+
+.tick-credits {
+  right: 1rem !important;
+}
+
+img:hover {
+  opacity: 0.4;
+  filter: invert(59%) sepia(54%) saturate(2505%) hue-rotate(307deg) brightness(100%) contrast(90%);
+  -webkit-filter: invert(59%) sepia(54%) saturate(2505%) hue-rotate(307deg) brightness(100%) contrast(90%);
+  ;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .title {
+    color: hsl(0, 0%, 94%);
+    margin: 6rem 1rem 2rem 1rem;
+    padding: 2rem 0rem;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+  }
+
+  /********** clock **************/
+  .tick {
+    padding-bottom: 1em;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 9rem;
+  }
+
+  .tick-label {
+    font-size: 0.5rem;
+    text-align: center;
+    color: hsl(237, 18%, 59%);
+    letter-spacing: 0.3rem;
+  }
+
+  .tick-flip-panel {
+    background-color: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    border-radius: 4px;
+  }
+
+  .tick-flip-front {
+    background-color: hsl(227.14, 25.93%, 21.18%);
+    color: #cd4b6d;
+  }
+
+  .cardClock {
+    margin-bottom: -0.6rem;
+  }
+
+
+  .tick-group {
+    margin: 0 .25em;
+    text-align: center;
+  }
+
+  /********** clock **************/
+
+  .socialMedia {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-image: url(images/pattern-hills.svg);
+    background-position: right;
+    height: 170px;
+    width: 656px;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .imgSocialMedia-facebook,
+  .imgSocialMedia-pinterest,
+  .imgSocialMedia-instagram {
+    margin-top: 7rem;
+    width: 25px;
+    height: 25px;
+    margin-right: 2rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .title {
+    color: hsl(0, 0%, 94%);
+    margin: 3rem 1rem 3rem 1rem;
+    padding: 2rem 0rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+  }
+
+  /********** clock **************/
+  .tick {
+    padding-bottom: 1em;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 9rem;
+  }
+
+  .tick-label {
+    font-size: 0.5rem;
+    text-align: center;
+    color: hsl(237, 18%, 59%);
+    letter-spacing: 0.3rem;
+  }
+
+  .tick-flip-panel {
+    background-color: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    border-radius: 4px;
+  }
+
+  .tick-flip-front {
+    background-color: hsl(227.14, 25.93%, 21.18%);
+    color: #cd4b6d;
+  }
+
+  .cardClock {
+    margin-bottom: -0.6rem;
+  } 
+
+
+  .tick-group {
+    margin: 0 .25em;
+    text-align: center;
+  }
+
+  /********** clock **************/
+
+  .socialMedia {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-image: url(images/pattern-hills.svg);
+    background-position: right;
+    height: 185px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .imgSocialMedia-facebook,
+  .imgSocialMedia-pinterest,
+  .imgSocialMedia-instagram {
+    margin-top: 7rem;
+    width: 25px;
+    height: 25px;
+    margin-right: 2rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .title {
+    color: hsl(0, 0%, 94%);
+    margin: 3rem 1rem 3rem 1rem;
+    padding: 2rem 0rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+  }
+
+  /********** clock **************/
+  .tick {
+    padding-bottom: 1em;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 9rem;
+  }
+
+  .tick-label {
+    font-size: 0.5rem;
+    text-align: center;
+    color: hsl(237, 18%, 59%);
+    letter-spacing: 0.3rem;
+  }
+
+  .tick-flip-panel {
+    background-color: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    border-radius: 4px;
+  }
+
+  .tick-flip-front {
+    background-color: hsl(227.14, 25.93%, 21.18%);
+    color: #cd4b6d;
+  }
+
+  .cardClock {
+    margin-bottom: -0.6rem;
+  }
+
+
+  .tick-group {
+    margin: 0 .25em;
+    text-align: center;
+  }
+
+  /********** clock **************/
+
+  .socialMedia {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-image: url(images/pattern-hills.svg);
+    background-position: right;
+    height: 170px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .imgSocialMedia-facebook,
+  .imgSocialMedia-pinterest,
+  .imgSocialMedia-instagram {
+    margin-top: 7rem;
+    width: 25px;
+    height: 25px;
+    margin-right: 2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .title {
+    color: hsl(0, 0%, 94%);
+    margin: 3rem 1rem -2rem 1rem;
+    padding: 2rem 0rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+
+  /********** clock **************/
+  .tick {
+    padding-bottom: 1em;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 9rem;
+    margin-top: 4rem;
+  }
+
+  .tick-label {
+    font-size: 1rem;
+    text-align: center;
+    color: hsl(237, 18%, 59%);
+    letter-spacing: 0.3rem;
+  }
+
+  .tick-flip-panel {
+    background-color: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    border-radius: 8px !important;
+  }
+
+  .tick-flip-front {
+    background-color: hsl(227.14, 25.93%, 21.18%);
+    color: #cd4b6d;
+  }
+
+  .tick-credits {
+    right: 11rem !important;
+    top: 12.8rem !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .title {
+    color: hsl(0, 0%, 94%);
+    margin: 5rem 1rem 0rem 1rem;
+    padding: 2rem 0rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+
+  /********** clock **************/
+  .tick {
+    padding-bottom: 1em;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 9rem;
+  }
+
+  .tick-credits {
+    top: 9rem !important;
+    right: 20rem !important;
+  }
+
+  .tick-label {
+    font-size: 0.8rem;
+    text-align: center;
+    color: hsl(237, 18%, 59%);
+    letter-spacing: 0.3rem;
+  }
+
+  .tick-flip-panel {
+    background-color: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    border-radius: 14px;
+  }
+
+  .tick-flip-front {
+    background-color: hsl(227.14, 25.93%, 21.18%);
+    color: #cd4b6d;
+  }
+
+  .cardClock {
+    margin-bottom: -2.6rem;
+  }
+
+
+  .tick-group {
+    margin: 0 .25em;
+    text-align: center;
+  }
+
+  .tick [data-layout~=horizontal][data-layout~=fit] {
+    margin-bottom: -10rem !important;
+    margin-left: 0rem;
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+}
